@@ -1,0 +1,25 @@
+*{
+	margin:0;
+	padding:0;
+	box-sizing: border-box;
+	outline: 0;
+	overflow-x:hidden;
+	
+}
+a{
+	text-decoration: none;
+	color: white;
+}
+li{
+	list-style: none;
+}
+header, section, footer, aside, nav, main, article, figure {
+    display: block; 
+}
+.clear-fix::after{
+    content: "";
+	clear: both;
+	float: none;
+	display: block;
+}
+
